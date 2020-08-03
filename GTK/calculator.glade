@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkWindow">
+    <property name="can_focus">False</property>
+    <child type="titlebar">
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">1</property>
+            <property name="name">oneButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_one_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">1</property>
+            <property name="y">201</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">5</property>
+            <property name="name">fiveButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_five_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">81</property>
+            <property name="y">129</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">.</property>
+            <property name="name">dotButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_dot_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="y">272</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">4</property>
+            <property name="name">fourButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_four_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">1</property>
+            <property name="y">129</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">2</property>
+            <property name="name">twoButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_two_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">80</property>
+            <property name="y">202</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">6</property>
+            <property name="name">sixButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_six_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">160</property>
+            <property name="y">130</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">0</property>
+            <property name="name">zeroButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_zero_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">81</property>
+            <property name="y">272</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">3</property>
+            <property name="name">threeButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_three_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">159</property>
+            <property name="y">201</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">=</property>
+            <property name="name">equalsButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_equals_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">160</property>
+            <property name="y">272</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">7</property>
+            <property name="name">sevenButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_seven_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">1</property>
+            <property name="y">59</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">8</property>
+            <property name="name">eightButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_eight_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">80</property>
+            <property name="y">59</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">9</property>
+            <property name="name">nineButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_nine_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">159</property>
+            <property name="y">58</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">+</property>
+            <property name="name">plusButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_plus_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">238</property>
+            <property name="y">58</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">-</property>
+            <property name="name">minusButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_minus_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">239</property>
+            <property name="y">130</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="label" translatable="yes">*</property>
+            <property name="name">timesButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_times_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">238</property>
+            <property name="y">201</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="division">
+            <property name="label" translatable="yes">/</property>
+            <property name="name">divButton</property>
+            <property name="width_request">76</property>
+            <property name="height_request">68</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_div_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">237</property>
+            <property name="y">272</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="expression">
+            <property name="name">expression</property>
+            <property name="width_request">310</property>
+            <property name="height_request">53</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">label</property>
+          </object>
+          <packing>
+            <property name="x">5</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
