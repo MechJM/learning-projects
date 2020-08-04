@@ -1,11 +1,8 @@
 #include "button_presses.h"
 
-
-
-int main(int argc, char* argv[])
+int main(void)
 {
-    argc =argc;
-    argv=argv;
+    strcpy(expression,"0");
 
     return 0;
 }
