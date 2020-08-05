@@ -1,4 +1,6 @@
 #include "button_presses.h"
+#include <string.h>
+#include <ctype.h>
 
 void on_notEqualsButton_clicked(GtkButton* button)
 {
@@ -23,5 +25,27 @@ void on_notEqualsButton_clicked(GtkButton* button)
 
     strcat(expression,&toBeAppended);
 
-    return;
+    gtk_label_set_label((GtkLabel *) numDisplay,(gchar *) expression);
+}
+
+void on_equalsButton_clicked(GtkButton* button)
+{
+    for (int i = 0; i < strlen(expression); i++)
+    {
+        if (!isdigit(expression[i]))
+        {
+            double num1 = atof(expression[0]);
+            double num2 = atof(expression[i+1]);
+            double result;
+
+                 if (expression[i] == '+') result = num1 + num2;
+            else if (expression[i] == '-') result = num1 - num2;
+            else if (expression[i] == '*') result = num1 * num2;
+            else if (expression[i] == '/') result = num1 / num2;
+
+            sprintf(expression,"%f",result);
+            break;
+        }
+    }
+    gtk_label_set_label((GtkLabel *) numDisplay,(gchar *) expression);
 }
