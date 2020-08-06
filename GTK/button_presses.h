@@ -2,6 +2,8 @@
 
 #include <gtk/gtk.h>
 
+enum operation {addition, subtraction, multiplication, division};
+
 char expression[100];
 GtkWidget* numDisplay;
 GtkWidget* window;
