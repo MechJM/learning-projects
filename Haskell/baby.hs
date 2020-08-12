@@ -11,3 +11,7 @@ doubleSmallNumber' x =
         else x*2) + 1
 boomBangs xs = [if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x]
 removeNonUpperCase string = [c | c <- string, c `elem` ['A'..'Z']]
+-- Chapter 4
+initials :: String -> String -> String
+--initials (f:first) (l:last) = [f] ++ ". " ++ [l] ++ "."
+initials (f:first) (l:last) = f : '.' : ' ' : l : "."
